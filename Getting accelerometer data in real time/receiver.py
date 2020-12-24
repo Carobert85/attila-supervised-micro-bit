@@ -7,7 +7,7 @@ radio.config(group = 1)
 
 while True:
     message = radio.receive()
-    utime.sleep_ms(100)
+    utime.sleep_ms(10)
     # Often occurs that transmitter device stops working due to the battery issues.
     #So, we have to check if the connection is living with the next snippet of code.
     # If there is connection, the data type of the received message is 'str', 'None' otherwise.
