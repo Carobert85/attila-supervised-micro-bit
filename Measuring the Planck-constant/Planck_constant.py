@@ -18,7 +18,7 @@ while True:
         pin0.write_analog(N)
         current = pin1.read_analog() # check the circuit for current
         while current<2: # we should set while current ==0, but it works better if we allow a very small current
-            N += 1 # we increase the voltage if the current is negligable
+            N += 1 # we increase the voltage if the current is negligible
             pin0.write_analog(N)
             current = pin1.read_analog()
             sleep_ms(100)
