@@ -6,4 +6,4 @@ The crucial steps are: measuring and determining the threshold or activation vol
 h = em/c \
 This method is useful and accurate enough but needs more time to carry out. I developed another method using Micro:bit to make the measurement faster so it can be used as a class demonstration, too. The arrangement of the experiment can be seen in Figure 1.
 
-![] figure1.png
+![] (figure1.png)
