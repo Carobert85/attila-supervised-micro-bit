@@ -19,4 +19,4 @@ while True:
         print(to_print)
         
     else:
-        print('I lost the connection with the transmitter')
+        display.scroll('lost connection')
