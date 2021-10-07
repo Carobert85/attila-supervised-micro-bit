@@ -15,9 +15,14 @@ The circuit seen in the red rectangle behaves as a DC power source with adjustab
 Micro:bit has a 10 bit analogue digital converter, so in theory the resolution of the output voltage is 
 3.1 V /2<sup>10</sup> = 3 mV.  
 
-The characteristics of the analogue output of the Micro:bit can be seen in Figure 2. \
+The characteristics of the analogue output of the Micro:bit can be seen in Figure 2. 
 
 ![Alt text](https://github.com/tmattila77/Microbit-projects/blob/main/Measuring%20the%20Planck-constant/figure%202.JPG "Figure 2")
+
+We use the linear section in the middle of the graph to carry out the measurement, so we increase the voltage in 0.0114V steps.
+The *act_voltage.py* file is for determining the activation voltage for the LED, and following the instructions seen in the resource above, we can calculate the value of the Planck-constant. \
+Using this method and choosing the suitable LEDs, the calculated value of the Plank constant can be 6.33x10<sup>-34</sup>Js, the relative uncertainty is only 4.5%. \
+The Planck_constant.py file in the extension of the previous one. If we put the value of the wavelength of the light emitted by the LED in the program, and some universal constants, the program works out the value of the Planck-constant with the help of the equation above.
 
 
 
