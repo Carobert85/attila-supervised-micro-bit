@@ -2,6 +2,9 @@ The most exciting application of an accelerometer is to observe a moving object 
 
 I observed the motion of a long (l = 2.36 m) pendulum with Micro:bit and Data Streamer. I attached the board computer to the top of the moving object and programmed it to measure and stream via radio the value of az during the time of the observation. The streamed data was captured by a receiver Micro:bit which sent it to the Excel. (Figure 1.) The programs for both devices can be investigated in this repo (*transmitter.py*, *reciever.py*) and a portion of the results in Figure 2.
 
+![ALt text](https://github.com/tmattila77/Microbit-projects/blob/main/Getting%20accelerometer%20data%20in%20real%20time/Figure1.png "Figure1")
+
+
 
 The second Micro:bit is connected to a computer with Mu code editor. The program 'receiver.py' is running on the device and receives the data from the first one.
 There are more options the process the data.
