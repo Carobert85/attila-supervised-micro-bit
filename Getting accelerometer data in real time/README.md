@@ -4,11 +4,8 @@ I observed the motion of a long (l = 2.36 m) pendulum with Micro:bit and Data St
 
 ![ALt text](https://github.com/tmattila77/Microbit-projects/blob/main/Getting%20accelerometer%20data%20in%20real%20time/Figure1.png "Figure1")
 
+![Alt text](https://github.com/tmattila77/Microbit-projects/blob/main/Getting%20accelerometer%20data%20in%20real%20time/Figure2.JPG "Figure2")
 
-
-The second Micro:bit is connected to a computer with Mu code editor. The program 'receiver.py' is running on the device and receives the data from the first one.
-There are more options the process the data.
-1. Firstly, we can use the REPL and Plotter function of the MU editor to show the chnage of acceleration over time.
-2. Another option is to stream the data to the MS Excel app using MS Data Streamer.
+Another version to visualize the captured data is to use the Mu code editor. The second Micro:bit is connected to a computer whilst running the Mu code editor. The program 'receiver.py' is running on the Micro:bit and receives the data from the first one. We can use the REPL and Plotter function of the MU editor to show the chnage of acceleration over time.
 
 I am currently working on a program that can be run on the PC and which writes the data captured by the second Micro:bit into a csv file. My goal is to design a ipynb file that can access the data from the csv file to do further investigations to the data. More difficult motions, collisions etc. can be deeper analysed by using the notebook. 
