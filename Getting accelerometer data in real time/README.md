@@ -8,6 +8,16 @@ I observed the motion of a long (l = 2.36 m) pendulum with Micro:bit and Data St
 
 ![Alt text](https://github.com/tmattila77/Microbit-projects/blob/main/Getting%20accelerometer%20data%20in%20real%20time/Figure2.JPG "Figure2")
 
-Another version to visualize the captured data is to use the Mu code editor. The second Micro:bit is connected to a computer whilst running the Mu code editor. The program 'receiver.py' is running on the Micro:bit and receives the data from the first one. We can use the REPL and Plotter function of the MU editor to show the change of acceleration over time.
+Another version to visualizing the captured data is to use the Mu code editor. The second Micro:bit is connected to the computer whilst running the Mu code editor. As long as the program 'receiver.py' runs on the Micro:bit, receives the data from the first one and transfers it towards the editor. We can use the REPL and Plotter functions of the MU editor to show the change of acceleration over time.
 
-An advanced version of data collection is to capture the data by the second Micro:bit and read it to a *csv file*. To achieve this, I designed a program called *PC.py*. This program runs in the PC's terminal, shows the captured data and reads it to the file. To investigate the data deeper, I designed a Jupyter Notebook to have an insight of the dataset and visualize the captured data. I used the *Pandas*, *Numpy* and *Matplotlib* packages.
+An advanced version of data storage and analysis is to write the data captured by the second Micro:bit to a *csv file*. To achieve this, I wrote a program called *PC.py*. This program is run in the PC's terminal, shows the captured data and writes it to the file. To investigate the data deeper, I designed a Jupyter Notebook to have an insight of the dataset and to visualize the captured data. I used the *Pandas* and the *Matplotlib* packages in that notebook.
+
+I share some examples of the graphs made in the notebook here.
+
+![Alt.text]
+
+![Alt.text]
+
+![Alt.text]
+
+
