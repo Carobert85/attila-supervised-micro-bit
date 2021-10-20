@@ -16,7 +16,7 @@ I share some examples of the graphs made in the notebook here.
 
 ![Alt.text](https://github.com/tmattila77/My-scientific-projects/blob/main/Getting%20accelerometer%20data%20in%20real%20time/acceleration1.JPG)
 
-![Alt.text]
+![Alt.text](https://github.com/tmattila77/My-scientific-projects/blob/main/Getting%20accelerometer%20data%20in%20real%20time/acceleration2.JPG)
 
 ![Alt.text]
 
