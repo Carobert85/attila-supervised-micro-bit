@@ -14,7 +14,7 @@ An advanced version of data storage and analysis is to write the data captured b
 
 I share some examples of the graphs made in the notebook here.
 
-![Alt.text]
+![Alt.text](https://github.com/tmattila77/My-scientific-projects/blob/main/Getting%20accelerometer%20data%20in%20real%20time/acceleration1.JPG)
 
 ![Alt.text]
 
