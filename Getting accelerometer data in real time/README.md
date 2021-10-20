@@ -12,12 +12,12 @@ Another version to visualizing the captured data is to use the Mu code editor. T
 
 An advanced version of data storage and analysis is to write the data captured by the second Micro:bit to a *csv file*. To achieve this, I wrote a program called *PC.py*. This program is run in the PC's terminal, shows the captured data and writes it to the file. To investigate the data deeper, I designed a Jupyter Notebook to have an insight of the dataset and to visualize the captured data. I used the *Pandas* and the *Matplotlib* packages in that notebook.
 
-I share some examples of the graphs made in the notebook here.
+I share some examples of the graphs about a collision made in the notebook here.
 
 ![Alt.text](https://github.com/tmattila77/My-scientific-projects/blob/main/Getting%20accelerometer%20data%20in%20real%20time/acceleration1.JPG)
 
 ![Alt.text](https://github.com/tmattila77/My-scientific-projects/blob/main/Getting%20accelerometer%20data%20in%20real%20time/acceleration2.JPG)
 
-![Alt.text]
+![Alt.text](https://github.com/tmattila77/My-scientific-projects/blob/main/Getting%20accelerometer%20data%20in%20real%20time/acceleration3.JPG)
 
 
