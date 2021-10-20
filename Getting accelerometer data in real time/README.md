@@ -10,7 +10,7 @@ I observed the motion of a long (l = 2.36 m) pendulum with Micro:bit and Data St
 
 Another version to visualizing the captured data is to use the Mu code editor. The second Micro:bit is connected to the computer whilst running the Mu code editor. As long as the program 'receiver.py' runs on the Micro:bit, receives the data from the first one and transfers it towards the editor. We can use the REPL and Plotter functions of the MU editor to show the change of acceleration over time.
 
-An advanced version of data storage and analysis is to write the data captured by the second Micro:bit to a *csv file*. To achieve this, I wrote a program called *PC.py*. This program is run in the PC's terminal, shows the captured data and writes it to the file. To investigate the data deeper, I designed a Jupyter Notebook to have an insight of the dataset and to visualize the captured data. I used the *Pandas* and the *Matplotlib* packages in that notebook.
+An advanced version of data storage and analysis is to write the data captured by the second Micro:bit to a *csv file*. To achieve this, I wrote a program called *PC.py*. This program is run in the PC's terminal, shows the captured data and writes it to the file. To investigate the data deeper, I designed a Jupyter Notebook to have an insight of the dataset and to visualize the captured data. I used the *Pandas* , *Numpy* and the *Matplotlib* packages in that notebook.
 
 I share some examples of the graphs about a collision made in the notebook here.
 
