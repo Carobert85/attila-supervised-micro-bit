@@ -1,3 +1,9 @@
+"""
+This program runs on the Micro:bit attached to the moving object (transmitter). The purpose of this program is to collect data from the transmitter's accelerometer,
+convert the digital data into scientific data (acceleration, measured in m/s<sup>2</sup> and transfer it to the receiver Micro:bit that is connected to the main compuetr.
+"""
+
+#importing libraries
 from microbit import*
 import radio
 import utime
