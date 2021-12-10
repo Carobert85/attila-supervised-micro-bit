@@ -1,7 +1,7 @@
 """
 The purpose of this code is to measure your reaction time.
 When you see the happy face, press button A immediatelly. Your reaction time is going to be displayed in milliseconds.
-You have three tries but be careful, the image gets fainter each time.
+You have three attempts but be careful, the image gets fainter each time.
 At the end you will see your average reaction time.
 Good luck!
 """
@@ -20,12 +20,12 @@ image3 = Image("00000:03030:00000:30003:03330")
 images = [image1, image2, image3]
 
 sum_ = 0 # I define this variable to help working out the average value at the end
-for i in range(3): # you have 3 tries
+for i in range(3): # you have 3 attempts
     reaction = 0 # initialize the reaction time variable
 
     # the image is going to appear randomly between 0 and 10 seconds
     time = random.randint(0,10)
-    display.scroll(str(i+1)) # the number of try
+    display.scroll(str(i+1)) # the number of attempt
     display.clear()
     utime.sleep(time)
 
