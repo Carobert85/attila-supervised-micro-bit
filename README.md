@@ -5,4 +5,6 @@ In the projects *Measuring Planck constant* I use the Micro:bit to determine the
 
 The project *Getting Accelerometer Data in Real Time* focuses on streamimng data from a Micro:bit attached to a moving object to another one attached to a computer. The moving Micro:bit collects data from its accelerometer, and the data is streamed and collected by the other one. Then the data is written into a *csv* file that is analyzed in a Jupyter Notebook. Details and results can be found in the README file.
 
+There is a short project in the repo as well. This is the *Measuring your reaction time with BBC Micro:bit*. In this project I show a simple and short way of how the user's reaction time can be tested when showing an image randomly on the device's LED screen and measurimg how fast the user reacts to it. I also change the brightness of the images during the test to make it more informative.
+
 I am working on 2 more projects. One is the extension of the secondly mentioned project, in which I try achive to teach a *supervised learning ML algorithm* to distinguish simple harmonic motion from pendulum and circular motions done by a BBC Micro:bit. The second project is the application of an *unsupervised ML algorithm* in relation to the Herzsprung-Russel Diagram.  
