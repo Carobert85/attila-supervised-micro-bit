@@ -29,6 +29,8 @@ while True:
         # getting the digital data along x and y axes and converting them into real acceleration values. Working out the value of rotion as well
         accel_x = round((9.81/1024)*accelerometer.get_x(), 2) # acceleartion along the x-axis
         accel_y = round((9.81/1024)*accelerometer.get_y(), 2) # acceleration along the y-axis
+        
+        # SHM: angle = arctan(accel_y/accel_x), pendulum and circular: angle = arctan(accel_x/accel_y)
         angle = round(math.atan2(accel_x, accel_y),2) # work out the angle of rotation
         
         # sending the data via radio
