@@ -28,12 +28,12 @@ while True:
         
         # The data can be the number of iteration sent by the transmitter Micro:bit (its length is less than 4) or the triple of number (its length is longer than 4).
         
-        # Fisrtly, we find out if the data is the number of iteration. If yes, the program prints onto the screen but does not write to the file.
+        # Fisrtly, we find out if the data is the number of the sample from the transmitter device. If yes, the program prints it onto the screen but does not write it to the file.
         if len(data)<4:
             iteration+=1
             print("iteration: ", iteration)
             
-        # We find out wheter the data is the triple of numbers and if it is the last. If yes, the program writes the data to the file and asks if we want to run it again.
+        # We find out wheter the data is the tuple of 3 numbers and if it is the last one. If yes, the program writes the data to the file and asks if we want to run the program again.
         if len(data)>4 and iteration==308:
             with open('MLtest'+str(file_id)+'.txt', 'a') as myfile:
                 myfile.write(str(data)+'\n')
@@ -46,7 +46,7 @@ while True:
             else:
                 quit() # if we don't want to run the code again, it stops.
         
-        # if the data is the triple of numbers but not the last one, the program writes it to the file.
+        # if the data is the tuple of 3 numbers but not the last one, the program writes it to the file.
         else:
             if len(data)>4:
                 with open('MLtest'+str(file_id)+'.txt', 'a') as myfile:
