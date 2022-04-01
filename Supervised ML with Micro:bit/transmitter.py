@@ -1,6 +1,6 @@
 """
 This program runs on the Micro:bit attached to the moving object. The purpose of this code is to collect data from the device's accelerometer every 50ms, 
-convert the digital data into scientific (from integers between 0-1023 to acceleration measured in m/s<sup>2</sup>) and send it to the receiver Micro:bit 
+convert the digital data into scientific (from integers between 0-1023 to acceleration measured in m/s<sup>2</sup> ) and send it to the receiver Micro:bit 
 via radio signal. The sent data is in string format and is a tuple of 3 numbers: acceleration along x-axis, acceleration along y-axis, and the tilt angle along z-axis. 
 """
 
