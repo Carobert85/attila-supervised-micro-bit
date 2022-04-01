@@ -47,7 +47,7 @@ while True:
             else:
                 quit()
         
-        # If this is not the final tuple from the receiver device, write it to the file.
+        # If this is not the last tuple from the receiver device, write it to the file.
         else:
             if len(data)>4:
                 with open('MLtest'+str(counter)+'.txt', 'a') as myfile:
