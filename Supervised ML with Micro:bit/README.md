@@ -13,5 +13,5 @@ Each experiment provides a long data file but to be able to train the ML algorit
 ## Training and testing the model
 The main purpose of this project is to train a good *supervised machine learning model* that is able to categorise the test data instances and is able to distinguish the three types of motion. We chose 4 different algorithms (*SVM, decision tree, random forest, K-nearest*) to train on *final_dataset.csv* and to compare their performance. It is done in the *train_model.ipynb* file. After comparing the models' performance we chose the *K-nearest* model to test it live in the classroom. The *Live_test_final.ipynb* file is to carry out the live test. This is a short and complex notebook with only a few lines of code to make the live test easy. In this notebook we import lot of previously designed functions that are collected in *functions.py*.
 
-For a more detailed description of the project, please check out the website accessed here: https://wordpress.com/post/tmattila.wordpress.com/192.
+For a more detailed description of the project, please check out the website accessed here: https://tmattila.wordpress.com/2022/04/05/machine-learning-to-everybody/
 
